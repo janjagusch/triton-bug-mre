@@ -1,0 +1,8 @@
+name: triton-bug-mre
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - pip
+  - pip:
+    - tritonclient[http]
